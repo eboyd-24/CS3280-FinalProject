@@ -1,0 +1,107 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    /* border-radius: 10px 10px 0 0; */
+}
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+
+}
+.navbar a.right {
+    float: right;
+    color: black;
+    text-decoration: none;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.navbar a.right img {
+    height: 40px;
+}
+.navbar a:hover {
+    border-bottom: 3px solid black;
+
+}
+label {
+    /* font-weight: bold; */
+
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Montserrat";
+}
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: 700;
+
+}
+
+.title img {
+    height: 40px;
+}
+
+
+
+.entry {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.entry h3 {
+    margin-top: 0;
+}
+.entry p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
